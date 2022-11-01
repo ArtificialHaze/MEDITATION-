@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/css/bootstrap.min.css"
+      integrity="sha512-siwe/oXMhSjGCwLn+scraPOWrJxHlUgMBMZXdPe2Tnk3I0x3ESCoLz7WZ5NTH6SZrywMY+PB1cjyqJ5jAluCOg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Practice</title>
+  </head>
+  <body>
+    <div class="image">
+      <img src="./summer.jpg" alt="" />
+    </div>
+    <div class="app">
+      <div class="audio">
+        <audio>
+          <source src="./meditation.mp3" type="audio/mpeg" />
+        </audio>
+        <div class="pause">
+          <img src="./pause-button.png" alt="pauseSVG" />
+        </div>
+        <div class="progress">
+          <svg>
+            <rect
+              class="rectOne"
+              stroke-width="10"
+              rx="8"
+              height="150"
+              width="150"
+              y="25"
+              x="25"
+              stroke="#F07281"
+              fill="transparent"
+            ></rect>
+          </svg>
+          <svg>
+            <rect
+              class="rect"
+              stroke-width="10"
+              rx="8"
+              height="150"
+              width="150"
+              y="25"
+              x="25"
+              stroke="#FFFFFF"
+              fill="transparent"
+            ></rect>
+          </svg>
+          <div class="audio-remaining-time">00 : 00</div>
+        </div>
+        <div class="play">
+          <img src="./play-button.png" alt="playSVG" />
+        </div>
+      </div>
+      <div class="durations">
+        <div class="duration" audio-duration="300">
+          <img
+            src="./5-minutes-clock-quick-number-icon-5min-time-vector-32249152.jpg"
+            alt="5Min"
+          />
+          <p>5 MIN</p>
+        </div>
+        <div class="duration" audio-duration="120">
+          <img
+            src="./2-minutes-clock-quick-number-icon-2min-time-vector-32828632.jpg"
+            alt="2Min"
+          />
+          <p>2 MIN</p>
+        </div>
+        <div class="duration" audio-duration="600">
+          <img
+            src="./10-minutes-clock-quick-number-icon-10min-time-vector-31494587.jpg"
+            alt="10Min"
+          />
+          <p>10 MIN</p>
+        </div>
+        <div class="duration" audio-duration="1200">
+          <img
+            src="./360_F_303633325_2H3OxKolmnVUuoMpFTGODjFTYVrw9PU2.jpg"
+            alt="20Min"
+          />
+          <p>20 MIN</p>
+        </div>
+      </div>
+      <div class="seasons">
+        <div
+          class="season"
+          image-src="./meditation-winter-solstice-770x513.jpg"
+        >
+          <img src="./meditation-winter-solstice-770x513.jpg" alt="winter" />
+        </div>
+        <div
+          class="season"
+          image-src="./Screen-Shot-2021-06-08-at-10.22.04-AM.jpg"
+        >
+          <img src="./Screen-Shot-2021-06-08-at-10.22.04-AM.jpg" alt="spring" />
+        </div>
+        <div class="season" image-src="./AdobeStock_56299310.jpeg">
+          <img src="./AdobeStock_56299310.jpeg" alt="autumn" />
+        </div>
+        <div class="season" image-src="./summer.jpg">
+          <img src="./summer.jpg" alt="summer" />
+        </div>
+        <div class="toggle">
+          <img src="./right-arrow.png" alt="arrow" />
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
